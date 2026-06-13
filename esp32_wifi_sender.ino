@@ -4,11 +4,11 @@
 // ==========================================
 //   Wi-Fi & Server Configurations
 // ==========================================
-const char* ssid = "TECNO POVA 6 Pro 5G";          // Replace with your Wi-Fi SSID
-const char* password = "22as11wi06ni";  // Replace with your Wi-Fi Password
+const char* ssid = "wifi ssid";          // Replace with your Wi-Fi SSID
+const char* password = "password";  // Replace with your Wi-Fi Password
 
 // Flask Backend API URL (Replace with your computer's local network IP)
-const char* serverUrl = "http://172.22.251.79:5000/api/sensor-data"; 
+const char* serverUrl = "http://my ip:5000/api/sensor-data"; 
 
 // ==========================================
 //   Hardware Pin Configuration
