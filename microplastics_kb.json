@@ -1,0 +1,72 @@
+{
+  "general_science": {
+    "DLS_principle": "Dynamic Light Scattering (DLS) and turbidity sensing measure the fluctuations of scattered light intensity over time. Suspended microparticles (0.1 - 500 microns) cross the laser path, creating destructive interference and blocking light, which produces high-frequency voltage fluctuations (variance/standard deviation) and drops in average voltage. Purer samples yield steady high voltages with low noise.",
+    "ingestion_impact": "Ingested microplastics cross the intestinal barrier, causing physical cellular abrasion, localized inflammation, and histopathological changes. They can act as vectors for chemical additives (phthalates, bisphenols) and adsorb heavy metals or organic pollutants, leading to potential endocrine disruption."
+  },
+  "polymers": {
+    "PET": {
+      "full_name": "Polyethylene Terephthalate",
+      "shedding_mechanism": "Degrades and releases microparticles under UV radiation, heat, and physical stress (e.g., squeezing or opening bottle caps).",
+      "health_risk": "Contains antimony catalysts and phthalate plasticizers which can leach, acting as endocrine disruptors."
+    },
+    "PP": {
+      "full_name": "Polypropylene",
+      "shedding_mechanism": "Frequently used in food containers and reusable cups; sheds micro-fragments and nanofibers when subjected to boiling liquids, microwave heating, or mechanical scrubbing.",
+      "health_risk": "Subject to oxidative degradation; inhalation or ingestion of PP microfibers can trigger pulmonary inflammation or cytokine release."
+    },
+    "PE": {
+      "full_name": "Polyethylene (LDPE/HDPE)",
+      "shedding_mechanism": "Sheds micro-fragments through cutting actions on boards, squeezing caps, or folding bags.",
+      "health_risk": "Highly hydrophobic, acts as a magnet for persistent organic pollutants (POPs) in the environment."
+    }
+  },
+  "filtration_technologies": {
+    "Reverse_Osmosis": {
+      "mechanism": "Uses a semi-permeable membrane under pressure to block particles down to 0.0001 microns.",
+      "efficiency": "99.9% reduction in microparticles and nanoplastics.",
+      "recommendation": "Highly recommended for complete removal of both micro- and nanoplastics from drinking water."
+    },
+    "Sub_Micron_Carbon_Block": {
+      "mechanism": "Combines physical sieving (0.5 micron pore size) with chemical adsorption.",
+      "efficiency": "95% to 99% reduction of microplastics (> 1 micron).",
+      "recommendation": "Cost-effective, highly recommended filter for general household under-sink systems."
+    },
+    "Gravity_Carbon_Filter": {
+      "mechanism": "Relies on gravity to pull water through block or granular media.",
+      "efficiency": "85% to 92% reduction depending on block density.",
+      "recommendation": "Good for portable countertop filters; ensure carbon blocks are rated under 1 micron."
+    }
+  },
+  "surfaces": {
+    "Bottle": {
+      "description": "Plastic beverage bottles and water containers, typically PET (recycle code 1) or HDPE (recycle code 2).",
+      "degradation_signs": "Cloudiness, internal micro-scratches, white stress fractures, or thinning walls near the cap and neck.",
+      "shedding_rate": "High risk under direct sunlight, freezing, or re-use. Standard twisting of caps generates thousands of micro-fragments.",
+      "safest_alternative": "Food-grade Borosilicate Glass or 304/316 Stainless Steel flask."
+    },
+    "Utensil": {
+      "description": "Plastic plates, bowls, spoons, and spatulas made of polypropylene (PP) or melamine/nylon.",
+      "degradation_signs": "Loss of surface gloss, deep scratches, rough textures, or melting/warping on edges.",
+      "shedding_rate": "Extreme risk when exposed to temperatures exceeding 70°C or subjected to abrasive metal dishwashers.",
+      "safest_alternative": "Stainless Steel, Bamboo, or seasoned Cast Iron utensils."
+    },
+    "Food Packaging": {
+      "description": "Flexible plastic wrap, single-use bags, and tray covers, made of LDPE, PVC, or polystyrene.",
+      "degradation_signs": "Fraying edges, micro-tears, stretching, or thermal shrinkage.",
+      "shedding_rate": "High risk of tearing micro-fragments directly into food, especially when microwaved or heated.",
+      "safest_alternative": "Beeswax food wraps, silicone covers, or glass storage containers."
+    },
+    "Street/Soil": {
+      "description": "Outdoor asphalt pavements, road dust, and surrounding soils containing tyre wear particles (TWPs).",
+      "degradation_signs": "Cracks, potholes, black powdery residue, or weathering from UV sunlight.",
+      "shedding_rate": "Continuous shedding of micro-rubbers (styrene-butadiene) due to tyre friction, washed into stormwater drains.",
+      "safest_alternative": "Permeable eco-pavements, vegetative bioswales, and rain gardens to filter run-off."
+    },
+    "Cutting Board": {
+      "description": "Plastic kitchen chopping boards made of High-Density Polyethylene (HDPE) or Polypropylene (PP).",
+      "degradation_signs": "Deep knife cuts, grooved textures, staining, or fuzzy plastic fibers peeling from the surface.",
+      "shedding_rate": "Chopping actions scrape off micro-ribbons. Standard use can shed 10 to 50 milligrams of plastic per session directly into food.",
+      "safest_alternative": "Solid Maple, Walnut wood, or Bamboo cutting boards."
+    }
+  }
+}

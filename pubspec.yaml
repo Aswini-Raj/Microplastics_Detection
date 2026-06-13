@@ -1,0 +1,25 @@
+name: microplastic_detector
+description: A universal microplastic detector application using ESP32 telemetry & Gemini Vision AI.
+version: 1.0.0+1
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.2.0
+  fl_chart: ^0.66.0
+  image_picker: ^1.0.7
+  camera: ^0.10.5+9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
